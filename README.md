@@ -1,0 +1,2 @@
+# Ball-Following-Robot-
+A robot which takes the input via a USB camera and passes the raw image to image processing node via ROS. After processing the required command is send to the robot serially using ROS. Using the processed image of the ball the robot will move according to the image’s proximity. (Used OpenCV to detect the coloured Ball and used ROS for communication between the camera input to the Arduino output)
